@@ -1,0 +1,114 @@
+.site-header {
+  height: 200px;
+  background-size: cover;
+  margin-bottom: 10px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #406378;
+  border-left: 2px solid #ccc;
+  border-right: 2px solid #ccc;
+}
+.nav li {
+  display: inline-block;
+  min-width: 8em;
+  min-height: 4em;
+  background-color: #406378;
+  text-align: center;
+  padding-top: 5px;
+}
+.nav li:hover {
+  background-color: #84CEF9;
+}
+.nav li a {
+  color: rgb(255, 255, 255);
+}
+
+* {
+  box-sizing: border-box;
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  line-height: 1.8;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1.4rem;
+}
+
+p {
+  margin-bottom: 1.4rem;
+  font-size: 1em;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #cee8f7;
+  max-width: 80%;
+  margin: 0 auto;
+  border: 0 none;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  border: 1px solid #222;
+}
+
+/* Figure */
+.figure {
+  display: inline-block;
+  margin: 0;
+  padding: 0.5em;
+  max-width: 300px;
+}
+
+.figure.right {
+  float: right;
+  margin-left: 1em;
+}
+
+img {
+  max-width: 100%;
+}
+
+.cloverimg {
+  max-width: 200px;
+}
+
+/* Footer */
+.footer {
+  height: 200px;
+  background-size: cover;
+}
+
+.footer a {
+  color: rgb(255, 255, 255);
+  margin: 0.4em;
+  text-decoration: none;
+}
+
+.luckypage {
+  text-align: center;
+  background-image: linear-gradient(45deg, transparent 20%, black 25%, transparent 25%), linear-gradient(-45deg, transparent 20%, black 25%, transparent 25%), linear-gradient(-45deg, transparent 75%, black 80%, transparent 0), radial-gradient(gray 2px, transparent 0);
+  background-size: 30px 30px, 30px 30px;
+}
+
+/*# sourceMappingURL=app.css.map */
